@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment Solution for Module 2</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		@media (min-width: 992px) {
+		  .col-lg-4 {
+		  	float: left;
+		    width: 33.33%;
+		  }
+		}
+
+		/********** Medium devices only **********/
+		@media (min-width: 768px) and (max-width: 991px) {
+			  .col-md-6, .col-md-12 {
+			    float: left;
+			    }
+				  .col-md-12 {
+				    width: 100%;
+				  }
+				  .col-md-6 {
+				    width: 50%;
+				}
+			}
+		@media (min-width: 0px) and (max-width: 767px) {
+		  .col-sm-1 {
+		  	float: left;
+		    width: 100%;
+		  }
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div id="new">
+		<div class="col-sm-1 col-lg-4 col-md-6">
+			<div class="box">
+				<div class="new1">Chicken</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quod necessitatibus a ullam dolorum amet reprehenderit sit laudantium reiciendis aperiam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi.</p>
+			</div>
+		</div>
+		<div class="col-sm-1 col-lg-4 col-md-6">
+			<div class="box">
+				<div class="new2">Beef</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quod necessitatibus a ullam dolorum amet reprehenderit sit laudantium reiciendis aperiam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi.</p>
+			</div>
+		</div>
+		<div class="col-sm-1 col-lg-4 col-md-12">
+			<div class="box">
+				<div class="new3">Sushi</div> 
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quod necessitatibus a ullam dolorum amet reprehenderit sit laudantium reiciendis aperiam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi.</p>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
